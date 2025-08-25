@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    color: rgb(0, 0, 0);
+    word-spacing: 7px;
+    z-index: 999;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 51, 51);
+}
+
+.tela {
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    background-color: rgba(150, 15, 184, 0.356);
+    background-image: url('../imgs/background-numbers.jpg');
+    background-size: cover;
+}
+
+.pergunta {
+    color: aliceblue;
+    font-size: 7vw;
+
+}
+
+.resposta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 30vw;
+
+}
+
+#resposta {
+    text-align: center;
+    font-size: 3vw;
+    height: 10vh;
+    width: 40%;
+    outline: none;
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    transition: all 0.2s ease-out;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid green;
+
+}
+#resposta:hover {
+    box-shadow: rgba(0, 0, 0, 0.144) 0px 30px 90px;
+}
+.confirm {
+    width: 3vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(96, 218, 102);
+    padding: 3px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    font-size: 130%;
+}
+
+.confirm:hover {
+    background-color: rgb(65, 209, 72);
+
+}

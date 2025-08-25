@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/interface.css">
+    <title>Trilha</title>
+</head>
+
+<body>
+    <div class="filtroEscuro"></div>
+    <img src="../imgs/multi cloud.png" alt=""
+        style="position: fixed; z-index: 0; pointer-events: none; width: 100%; height: 100%;">
+    <!--<img src="../imgs/aviaobandeira.png" alt="aviaocomplaca"
+        style="position: absolute; padding: 0; top: 10px; right: 44px; width: 70%; height: 60%;"> -->
+    <img onclick="aviaomultiplayer()" src="../imgs/aviaobandeiraverde.png" class="aviaomultiplayer" alt="">
+    <img src="../imgs/aviaoviradopraesquerda.png" alt="aviaocomplaca"
+        style="position: absolute; padding: 0; top: 80px; right: 44px; width: 30%; height: auto; z-index: 0;">
+
+
+    <header>
+        <nav class="topoinfo">
+            <h1 class="Nomedojogador">n</h1>
+            <img src="../imgs/logo nunsdly final.svg" alt="logo" class="logo" width="100">
+        </nav>
+    </header>
+    <main class="interface">
+        <h2 class="titmode"><img src="../imgs/logo nunsdly final.svg" alt=""></h2>
+        <div onclick="exibirpopup()" class="botaooffline">
+            <svg style="margin-top: 6px; z-index: 4; " width="32" height="32" viewBox="0 0 64 64" fill="none"
+                xmlns="http://www.w3.org/2000/svg" stroke="blue" stroke-width="1">
+                <!-- Bonequinho central -->
+                <circle cx="32" cy="20" r="6" fill="#333" />
+                <path d="M26 34c0-4 4-6 6-6s6 2 6 6v4H26v-4z" fill="#333" />
+
+                <!-- Bonequinho da esquerda -->
+                <circle cx="18" cy="24" r="5" fill="#555" />
+                <path d="M13 36c0-3 3-5 5-5s5 2 5 5v3h-10v-3z" fill="#555" />
+
+                <!-- Bonequinho da direita -->
+                <circle cx="46" cy="24" r="5" fill="#555" />
+                <path d="M41 36c0-3 3-5 5-5s5 2 5 5v3h-10v-3z" fill="#555" />
+            </svg>
+            multiplayer
+            <svg style="margin-top: 6px; z-index: 4; " width="32" height="32" viewBox="0 0 64 64" fill="none"
+                xmlns="http://www.w3.org/2000/svg" stroke="blue" stroke-width="1">
+                <!-- Bonequinho central -->
+                <circle cx="32" cy="20" r="6" fill="#333" />
+                <path d="M26 34c0-4 4-6 6-6s6 2 6 6v4H26v-4z" fill="#333" />
+
+                <!-- Bonequinho da esquerda -->
+                <circle cx="18" cy="24" r="5" fill="#555" />
+                <path d="M13 36c0-3 3-5 5-5s5 2 5 5v3h-10v-3z" fill="#555" />
+
+                <!-- Bonequinho da direita -->
+                <circle cx="46" cy="24" r="5" fill="#555" />
+                <path d="M41 36c0-3 3-5 5-5s5 2 5 5v3h-10v-3z" fill="#555" />
+            </svg>
+        </div>
+        <div class="trilha">
+            <div class="opcoesmode">
+                <div aria-label="soma" class="botaocima soma">
+                    <div class="dropdown-content">
+                        <p>Fácil</p>
+                        <p>Intermediário</p>
+                        <p>Difícil</p>
+                    </div>
+                    <div class="nuvem">
+                        <img src="../imgs/nuvem.png.png" alt="nuvem" width="auto" height="100%">
+                        <svg class="simbolos" width="150" height="150" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="50" y1="20" x2="50" y2="80" stroke="green" stroke-width="20" stroke-linecap="round"/>
+                            <line x1="20" y1="50" x2="80" y2="50" stroke="green" stroke-width="20" stroke-linecap="round"/>
+                          </svg>
+                          
+                    </div>
+                </div>
+
+                <div aria-label="subtração" class="botaobaixo subtracao">
+                    <div class="dropdown-content2">
+                        <p>difícil</p>
+                        <p>intermediário</p>
+                        <p>Fácil</p>
+                    </div>
+                    <div class="nuvem">
+                        <img class="image-nuvem" src="../imgs/nuvem.png.png" alt="nuvem" width="auto" height="100%">
+                        <svg class="simbolos" width="150" height="150" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="20" y1="50" x2="80" y2="50" stroke="green" stroke-width="20" stroke-linecap="round"/>
+                          </svg>
+                          
+                    </div>
+                </div>
+
+                <div aria-label="multiplicação" class="botaocima multiplicacao">
+                    <div class="dropdown-content">
+                        <p>Fácil</p>
+                        <p>Intermediário</p>
+                        <p>Difícil</p>
+                    </div>
+
+                    <div class="nuvem">
+                        <img src="../imgs/nuvem.png.png" alt="nuvem" width="auto" height="100%">
+                        <svg class="simbolos" width="150" height="150" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="30" y1="30" x2="70" y2="70" stroke="green" stroke-width="20" stroke-linecap="round"/>
+                            <line x1="70" y1="30" x2="30" y2="70" stroke="green" stroke-width="20" stroke-linecap="round"/>
+                          </svg>
+                          
+                    </div>
+                </div>
+
+                <div aria-label="divisão" class="botaobaixo divisao">
+                    <div class="dropdown-content2">
+                        <p>difícil</p>
+                        <p>intermediário</p>
+                        <p>Fácil</p>
+                    </div>
+                    <div class="nuvem">
+                        <img src="../imgs/nuvem.png.png" alt="nuvem" width="auto" height="100%">
+                        <svg class="simbolos" width="150" height="150" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="30" r="10" fill="green"/>
+                            <line x1="20" y1="50" x2="80" y2="50" stroke="green" stroke-width="20" stroke-linecap="round"/>
+                            <circle cx="50" cy="70" r="10" fill="green"/>
+                          </svg>
+                          
+                    </div>
+                </div>
+            </div>
+            <!--<svg class="path" viewBox="0 0 440 100" preserveAspectRatio="none">
+                <path d="M50,30 C90,24 80,60 140,50 C160,40 200,20 250,30 C280,50 320,60 360,40" fill="none"
+                    stroke="#80cbc4" stroke-width="20" />
+            </svg>
+        -->
+        </div>
+
+    </main>
+
+    <div id="background-fade"></div>
+    <div class="filtrodopopup">
+        <div class="popupdemultiplayer">
+            <span onclick="fecharpopup()" class="fechar"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                    viewBox="0 0 24 24" fill="none" stroke="gray" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+            </span>
+            <h4 class="titdopop">Modo multiplayer</h4>
+            <div class="btnsalablock">
+                <button class="botaosala criarsala">Criar sala</button>
+                <button class="botaosala entrarsala">Entrar na sala</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="../logica.js"></script>
+
+
+</body>
+
+</html>
