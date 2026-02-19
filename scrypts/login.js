@@ -1,10 +1,10 @@
 //PARA SORTEAR BACKGROUND
 const imagens = [
-    "url('../imgs/criaca_resolvendo_conta.jpg.jpg')",
-    "url('../imgs/crianca_levantando_a_mao.jpg.webp')",
-    "url('../imgs/crianca_jogando_tabuleiro.jpg.webp')",
-    "url('../imgs/crianca_escrevendo.jpeg')",
-    "url('../imgs/crianca-estudando.jpeg')"
+    "url('imgs/criaca_resolvendo_conta.jpg.jpg')",
+    "url('imgs/crianca_levantando_a_mao.jpg.webp')",
+    "url('imgs/crianca_jogando_tabuleiro.jpg.webp')",
+    "url('imgs/crianca_escrevendo.jpeg')",
+    "url('imgs/crianca-estudando.jpeg')"
 ]
 const imagensAleatorias = () => {
     let background = document.querySelector('body')
