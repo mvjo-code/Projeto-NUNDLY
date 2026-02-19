@@ -72,7 +72,7 @@ formulario.addEventListener('submit', function (event) {
     // Tudo certo
 
     setTimeout(() => {
-        window.location.href = '../paginas/trilha.html'
+        window.location.href = 'paginas/trilha.html'
     }, 1000)
 
     // Aqui você pode enviar os dados via fetch/ajax ou redirecionar
