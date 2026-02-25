@@ -15,5 +15,12 @@ Este projeto foi um estudo focado em **Desenvolvimento de Interface (UI)**. O ob
 * **Estruturação de Layout:** Organização dos elementos na tela para facilitar a leitura.
 * **Prototipação:** Transformação de ideias visuais em código funcional no navegador.
 
+## 🚀 Demonstração Online
+Este projeto está hospedado no GitHub Pages. Você pode testar a interface diretamente no seu navegador clicando no link abaixo:
+
+🔗 **[Acessar Live Demo do NUNDLY](https://mvjo-code.github.io/Projeto-NUNDLY/)**
+
+
 ---
 Developed by [Matheus Oliveira](https://github.com/mvjo-code)
+
