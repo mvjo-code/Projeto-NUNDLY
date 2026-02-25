@@ -1,24 +1,19 @@
-# 🎮 NUNDLY - Jogo Educacional Matemático
+# 🎨 NUNDLY - Interface de Jogo Educacional
 
-> **Resumo:** Aplicação interativa web desenvolvida para auxiliar crianças no aprendizado de operações matemáticas básicas de forma lúdica.
+> **Resumo:** Protótipo de interface (Front-end) desenvolvido para um jogo matemático infantil. O foco deste projeto foi a estruturação visual e a criação de um layout atraente e intuitivo.
 
 ## 🎯 Objetivo
-O NUNDLY foi criado para unir lógica de programação e educação. O desafio técnico foi desenvolver toda a mecânica do jogo, sistema de pontuação e transição de telas utilizando apenas **JavaScript Puro (Vanilla JS)**, sem dependência de bibliotecas externas.
+Este projeto foi um estudo focado em **Desenvolvimento de Interface (UI)**. O objetivo foi criar a "casca" visual de uma aplicação educativa, garantindo uma estrutura HTML semântica e um design agradável via CSS, simulando como seria a navegação do usuário.
 
 ## 🛠️ Tecnologias Utilizadas
-* **JavaScript (ES6+):** Lógica de jogo, manipulação do DOM e controle de estado.
-* **HTML5 & CSS3:** Estrutura e estilização da interface do usuário.
-* **Git:** Controle de versão.
+* **HTML5:** Estruturação semântica das telas.
+* **CSS3:** Estilização de botões, containers e tipografia para o público infantil.
+* **JavaScript (Básico):** Apenas para interações simples de interface (ex: navegação entre telas ou efeitos visuais).
 
-## 💡 Aprendizados e Implementações
-* **Manipulação do DOM:** Criação e atualização dinâmica de elementos HTML baseada nas ações do usuário.
-* **Lógica de Estado:** Controle de variáveis globais para gerenciar pontuação, erros e acertos em tempo real.
-* **Clean Code:** Estruturação de funções modulares para facilitar a leitura e manutenção do código.
-
-## 🚀 Como jogar
-1.  Clone o repositório.
-2.  Abra o `index.html`.
-3.  Responda aos desafios matemáticos e tente bater seu recorde!
+## 💡 Destaques do Estudo
+* **Design Limpo:** Criação de um visual amigável para crianças.
+* **Estruturação de Layout:** Organização dos elementos na tela para facilitar a leitura.
+* **Prototipação:** Transformação de ideias visuais em código funcional no navegador.
 
 ---
-Desenvolvido por [Matheus Oliveira](https://github.com/mvjo-code)
+Developed by [Matheus Oliveira](https://github.com/mvjo-code)
