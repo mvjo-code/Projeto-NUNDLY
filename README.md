@@ -1,4 +1,4 @@
-# <img src="https://icongr.am/feather/book-open.svg?size=30&color=bd93f9" align="center" alt="livro" /> NUNDLY - Interface de Jogo Educacional
+# <img src="https://icongr.am/fontawesome/gamepad.svg?size=30&color=bd93f9" align="center" alt="controle" /> NUNDLY - Interface de Jogo Educacional
 
 > **Resumo:** Protótipo de interface (Front-end) desenvolvido para um jogo matemático infantil. O foco deste projeto foi a estruturação visual e a criação de um layout atraente e intuitivo.
 
@@ -22,3 +22,4 @@ Este projeto está hospedado no GitHub Pages. Você pode testar a interface dire
 
 ---
 Developed by [Matheus Oliveira](https://github.com/mvjo-code)
+
