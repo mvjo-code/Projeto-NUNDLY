@@ -5,7 +5,7 @@
 ## <img src="https://icongr.am/feather/target.svg?size=30&color=bd93f9" align="center" alt="alvo" /> Objetivo
 Este projeto foi um estudo focado em **Desenvolvimento de Interface (UI)**. O objetivo foi criar a "casca" visual de uma aplicação educativa, garantindo uma estrutura HTML semântica e um design agradável via CSS, simulando como seria a navegação do usuário.
 
-## <img src="https://icongr.am/feather/tool.svg?size=30&color=bd93f9" align="center" alt="ferramentas" /> Tecnologias Utilizadas
+## <img src="https://icongr.am/feather/cpu.svg?size=26&color=bd93f9" align="center" alt="icon" /> Tecnologias Utilizadas
 * **HTML5:** Estruturação semântica das telas.
 * **CSS3:** Estilização de botões, containers e tipografia para o público infantil.
 * **JavaScript (Básico):** Apenas para interações simples de interface (ex: navegação entre telas ou efeitos visuais).
@@ -22,4 +22,5 @@ Este projeto está hospedado no GitHub Pages. Você pode testar a interface dire
 
 ---
 Developed by [Matheus Oliveira](https://github.com/mvjo-code)
+
 
